@@ -15,6 +15,21 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
  - FIO-3973: Fixes an issue where the invalidRowsError is set to the wrong element when an EditGrid has an opened row
  - FIO-5142: fixed an issue where resource select data not showing on view submission and pdf download
  - FIO-4405: fixed an issue where walidation error displays with empty value even if it is not required
+ - fix button loader icon removal at an unexpected event
+ - FIO-4949: done disable auto fill in browser
+ - FIO-4886: Fixes value calculation not working for nested forms
+ - FIO-4876 added condition for displaying the current form revision
+ - FIO-4816: email-submission-data-display-issues
+ - FIO-4752: Added autoscroll when dragging components inside of formbuilder
+ - FIO-4664: Fixed conditional logic based on Address component
+ - FIO-4629: fixed signature displaying in pdf form
+ - FIO-3258: fixed when user has to click twice on edit page to change Radio select
+ - FIO-5178: fixed emitting events from HTML component with Refresh On Change
+ - FIO-5057: added undefined check for TemplateData
+ - FIO-4820: Fixes an issue where API key of the component resets after changing some value labels on the Data tab
+ - FIO-4814: Ability to configure formio to store x-jwt-token in sessionStorage
+ - FIO-4603: fixed an issue where after closing the error message upload box is missing until refreshing the page
+ - FIO-5152: fixed an issue where value of html element displays differently on pdf download and form builder pages
 
 ## 4.15.0-rc.13
 ### Added
